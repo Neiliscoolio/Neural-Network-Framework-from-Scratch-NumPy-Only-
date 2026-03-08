@@ -1,4 +1,4 @@
-This is my first ever programming project. I built a small neural network library written in pure python with the help of NumPy while refraining from touching any machine learning libraries such as PyTorch or TensorFlow. The goal of this project was to understand what frameworks like PyTorch and TensorFlow are doing under the hood by implementing the core pieces myself.The library supports building and training simple feedforward neural networks with backpropagation and stochastic gradient descent. I utilized Claude in order to debug some issues that I was having with downloading the MNIST library and to teach me the fundementals of programming and apply NumPy.
+This is my first ever programming project. I built a small neural network library written in pure python with the help of NumPy while refraining from touching any machine learning libraries such as PyTorch or TensorFlow. The goal of this project was to understand what frameworks like PyTorch and TensorFlow are doing under the hood by implementing the core pieces myself.The library supports building and training simple feedforward neural networks with backpropagation and stochastic gradient descent. I utilized Claude in order to debug some issues that I was having with downloading the MNIST library and to teach me the fundementals of machine learning and the applications of NumPy.
 
 Features I completely implemented from scratch:
 
@@ -57,4 +57,5 @@ I wanted to  understand how neural networks actually work rather than just using
 Along the way I also implemented things like Xavier weight initialization and numerical stability tricks for the softmax / cross entropy computation.
 
 Thank you! I hope you have as much fun reading about and using this project as I did building it!!!
+
 
