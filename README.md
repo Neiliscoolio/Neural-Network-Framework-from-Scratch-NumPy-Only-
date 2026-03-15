@@ -31,31 +31,21 @@ After training on 60,000 images, the model achieved:
 ~97.35% accuracy on the 10,000 image test set.
 
 To Run the Project
-
-Install dependencies:
-
-pip install numpy pillow requests
-
-Train and evaluate the model:
-
-python MNIST.py
+-Install dependencies:
+  -pip install numpy pillow requests
+  -Train and evaluate the model:
+  -python MNIST.py
 
 You can also test the network on your own digit:
-
-Draw a number (0–9)
-
-Save it as my_digit.png in the project folder
-
+  -Draw a number (0–9)
+  -Save it as my_digit.png in the project folder
 Run:
-
-python MNIST.py
+-python MNIST.py
 
 Why I Built This:
-
 I wanted to  understand how neural networks actually work rather than just using existing libraries. Building everything manually  from forward propagation to backpropagation helped me understand how gradients flow through a network and how optimizers update weights.
-
 Along the way I also implemented things like Xavier weight initialization and numerical stability tricks for the softmax / cross entropy computation.
-
 Thank you! I hope you have as much fun reading about and using this project as I did building it!!!
+
 
 
