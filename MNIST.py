@@ -16,7 +16,7 @@ def download_mnist():
     x_test = data["x_test"].reshape(-1, 784) / 255.0
     y_test = data["y_test"].astype(int)
     return x_train, y_train, x_test, y_test
-
+    
 def predict_image(model, image_path):
     img = Image.open(image_path).convert('L')
     img = img.resize((28, 28))
@@ -85,5 +85,4 @@ def predict_image(model, image_path):
     for digit, prob in enumerate(probs):
         bar = "█" * int(prob * 30)
         print(f"  {digit}: {bar} {prob*100:.1f}%")
-
 predict_image(model, "my_digit.png")
