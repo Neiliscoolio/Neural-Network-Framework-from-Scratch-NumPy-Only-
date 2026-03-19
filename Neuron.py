@@ -39,7 +39,8 @@ class Sequential:
         for layer in reversed(self.layers):
             gradient_in = layer.backward(gradient_in)
         return gradient_in
-    
+
+
 def softmax(x):
     x = x - np.max(x)
     exp = np.exp(x)
